@@ -88,3 +88,8 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+FEED_FORMAT = "csv"
+FEED_URI = "scrape.csv"
+
+DOWNLOAD_DELAY = 1 # important, sometimes you will get banned if you set it to 0
